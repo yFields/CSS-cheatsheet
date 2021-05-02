@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<head>
+    <link href="CSS/index.css" rel="stylesheet">
+    <title>CSS Cheatsheet by Felix</title>
+</head>
+<body>
+<header>
+    <h1>CSS-Cheatsheet</h1>
+    <h4 id="version-number">v.1.0.0</h4>
+    <h6 id="author">by Felix Felder</h6>
+</header>
+<main>
+    <h2>Common CSS Attributes</h2>
+    <table class="table">
+        <thead>
+            <tr>
+                <td>Attribute</td>
+                <td>Values</td>
+                <td>Description</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>color</td>
+                <td>e.g black,rgba(),rgb()</td>
+                <td>Sets the foreground color of the selected Object to the chosen color.</td>
+            </tr>
+            <tr>
+                <td>background-color</td>
+                <td>e.g black,rgba(),rgb()</td>
+                <td>Sets the background color of the selected Object to the chosen color.</td>
+            </tr>
+            <tr>
+                <td>opacity</td>
+                <td>0-1</td>
+                <td>Determines how transparent an Object should be (0 fully transparent and 1 not transparent at all</td>
+            </tr>
+            <tr>
+                <td>font-family</td>
+                <td>eg. Helvetica, Georgia, Aerial etc.</td>
+                <td>Determines which font should be used for Text within the selcted element</td>
+            </tr>
+            <tr>
+                <td>font-size</td>
+                <td>eg. 10px, 20px, 3em</td>
+                <td>Determines the font size used for text in the selceted element</td>
+            </tr>
+            <tr>
+                <td>font-weight</td>
+                <td>eg. bold, bolder</td>
+                <td>Determines the weight of the font within an element. Is used to make text look bold for example.</td>
+            </tr>
+            <tr>
+                <td>padding</td>
+                <td>10px; 10px 20px; 10px 15px 25px 12px</td>
+                <td>Determines how much space should be between the border of the selected element and the actual data within the element</td>
+            </tr>
+            <tr>
+                <td>margin</td>
+                <td>10px; 10px 20px; 10px 15px 25px 12px</td>
+                <td>Determins how much space there should be between the selceted element and other elements surrounding it.</td>
+            </tr>
+            <tr>
+                <td>background-image</td>
+                <td>url('./link/to/your/image')</td>
+                <td>Selects an image to be used as the background of the selected element.</td>
+            </tr>
+        </tbody>
+   </table>
+   <h2>CSS Selectors</h2>
+   <table>
+       <thead>
+           <tr>
+               <td>Syntax</td>
+               <td>Values</td>
+               <td>Description</td>
+           </tr>
+       </thead>
+       <tbody>
+           <tr>
+               <td>selector {}</td>
+               <td>eg. h1, p, body</td>
+               <td>This selector selects all HTML tags in a file to apply the specified styling to. It has the lowest specifity of all selctors.</td>
+           </tr>
+           <tr>
+               <td>.selector {}</td>
+               <td>any class name</td>
+               <td>This selecotr selects all HTML elements with the specified class attribute. It is more specific than the tag selector but less specific than the ID selector</td>
+           </tr>
+           <tr>
+               <td>#selector {}</td>
+               <td>any ID name</td>
+               <td>This selector selects the single HTML element with the specified id attribute. It has the highest specifity of all selectors.</td>
+           </tr>
+       </tbody>
+   </table>
+</main>
+</body>
